@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BB55063-17EF-4739-A08B-1A3362A22428}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScottLane.DataTidy.Client</RootNamespace>
+    <AssemblyName>ScottLane.DataTidy.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ScottLane.DataTidy.Client.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Equin.ApplicationFramework.BindingListView, Version=1.4.5222.35545, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Equin.ApplicationFramework.BindingListView.1.4.5222.35545\lib\net40-Client\Equin.ApplicationFramework.BindingListView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=3.0.3.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.3.0.3\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2012Light, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.ThemeVS2012Light.2.10.0\lib\net40\WeifenLuo.WinFormsUI.Docking.ThemeVS2012Light.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\BindableTreeNode.cs" />
+    <Compile Include="Controls\BindableTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SampleDataViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SampleDataViewer.Designer.cs">
+      <DependentUpon>SampleDataViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataSourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataSourceForm.Designer.cs">
+      <DependentUpon>DataSourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NotificationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotificationsForm.Designer.cs">
+      <DependentUpon>NotificationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PerformanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PerformanceForm.Designer.cs">
+      <DependentUpon>PerformanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProjectForm.Designer.cs">
+      <DependentUpon>ProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PropertiesForm.Designer.cs">
+      <DependentUpon>PropertiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ApplicationState.cs" />
+    <Compile Include="Model\ClientUtility.cs" />
+    <Compile Include="Model\CommandLineArguments.cs" />
+    <Compile Include="Model\ToolStripItemComparer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChildForm.resx">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SampleDataViewer.resx">
+      <DependentUpon>SampleDataViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataSourceForm.resx">
+      <DependentUpon>DataSourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotificationsForm.resx">
+      <DependentUpon>NotificationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PerformanceForm.resx">
+      <DependentUpon>PerformanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProjectForm.resx">
+      <DependentUpon>ProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PropertiesForm.resx">
+      <DependentUpon>PropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{fdc7ea8c-f7e5-4e4a-b7ec-19e0fa2fac89}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dynamics365\Dynamics365.csproj">
+      <Project>{baeaaf2a-3964-4ac8-b75a-c75bc8aab8f3}</Project>
+      <Name>Dynamics365</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\File\File.csproj">
+      <Project>{06db95f1-47f7-4f3c-8cb4-25568e2bb8cf}</Project>
+      <Name>File</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlServer\SqlServer.csproj">
+      <Project>{bda1e9d0-4265-4e92-9758-85e18b412711}</Project>
+      <Name>SqlServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Duplicate Step.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Step.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormStop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProjectFormBatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Assign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upsert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Associate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disassociate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set State.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckConnectivity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComparisonOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Publish Entity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Publish All.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RowCount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClearCache.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddDataSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveDataSouce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormSaveProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\DataSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Progress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsFormWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClearNotifications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormWindows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConnectionsForm24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConnectionsForm16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsForm24.png" />
+    <None Include="Resources\NotificationsForm16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsForm16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PerformanceForm16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PerformanceForm24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProgressForm16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProgressForm24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reprocess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reprocess16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SampleDataViewer16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecentProjects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveRecentProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Surgeon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OperationEnable32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OperationDisable32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConnectionDisable32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConnectionEnable32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormHelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Version.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormDocumentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormAbout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainFormSaveProjectAs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsFormViewNotificationLog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsFormViewErrorLog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsFormOpenLogFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotificationsFormClearLogs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataTidy16.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(TargetDir)Plugins" mkdir "$(TargetDir)Plugins"
+del "$(TargetDir)Plugins\*.*"
+del "$(TargetDir)*.txt"
+REM copy /Y "$(SolutionDir)Dynamics365\$(OutDir)ScottLane.SurgeonV2.Dynamics365.dll" "$(TargetDir)Plugins\ScottLane.SurgeonV2.Dynamics365.dll"
+REM copy /Y "$(SolutionDir)File\$(OutDir)ScottLane.SurgeonV2.File.dll" "$(TargetDir)Plugins\ScottLane.SurgeonV2.File.dll"
+REM copy /Y "$(SolutionDir)SqlServer\$(OutDir)ScottLane.SurgeonV2.SqlServer.dll" "$(TargetDir)Plugins\ScottLane.SurgeonV2.SqlServer.dll"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AllowedReferenceRelatedFileExtensions>
+      <!-- Prevent default XML and PDB files copied to output in RELEASE. 
+           Only *.allowedextension files will be included, which doesn't exist in my case.
+       -->
+      .allowedextension
+    </AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataSourceValueName" xml:space="preserve">
+    <value>Data Source Value</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Dynamics365AssignOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365assignoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365AssignOperationConnectionCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to assign records in.</value>
+  </data>
+  <data name="Dynamics365AssignOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365AssignOperationDataSourceCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365AssignOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365AssignOperationDescription" xml:space="preserve">
+    <value>Assign Dynamics 365 records to a user or team</value>
+  </data>
+  <data name="Dynamics365AssignOperationDisplayName" xml:space="preserve">
+    <value>Assign Dynamics Records</value>
+  </data>
+  <data name="Dynamics365AssignOperationEntityCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationEntityDescription" xml:space="preserve">
+    <value>The entity containing records to assign.</value>
+  </data>
+  <data name="Dynamics365AssignOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyName" xml:space="preserve">
+    <value>Assign {0} to {1} for records in {2}</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyNameTeam" xml:space="preserve">
+    <value>&lt;Team&gt;</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyNameUnknown" xml:space="preserve">
+    <value>&lt;Owner&gt;</value>
+  </data>
+  <data name="Dynamics365AssignOperationFriendlyNameUser" xml:space="preserve">
+    <value>&lt;User&gt;</value>
+  </data>
+  <data name="Dynamics365AssignOperationOwnerTypeCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationOwnerTypeDescription" xml:space="preserve">
+    <value>The type of owner to assign records to.</value>
+  </data>
+  <data name="Dynamics365AssignOperationOwnerTypeDisplayName" xml:space="preserve">
+    <value>Owner Type</value>
+  </data>
+  <data name="Dynamics365AssignOperationRequestDescription" xml:space="preserve">
+    <value>Assigning {0} {1} to {2}</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetDescription" xml:space="preserve">
+    <value>The GUID of the record that is being assigned.</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetSourceCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the Target ID is sourced from a data source (DataSourceValue), a lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365AssignOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365AssignOperationTeamCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationTeamDescription" xml:space="preserve">
+    <value>The team to assign as the record owner.</value>
+  </data>
+  <data name="Dynamics365AssignOperationTeamDisplayName" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Dynamics365AssignOperationUserCategory" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="Dynamics365AssignOperationUserDescription" xml:space="preserve">
+    <value>The user to assign as the record owner.</value>
+  </data>
+  <data name="Dynamics365AssignOperationUserDisplayName" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Dynamics365AssignOperationValidateTeam" xml:space="preserve">
+    <value>Please select a Team to assign records to</value>
+  </data>
+  <data name="Dynamics365AssignOperationValidateUser" xml:space="preserve">
+    <value>Please select a User to assign records to</value>
+  </data>
+  <data name="Dynamics365AssociateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365associateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365AssociateOperationConnectionCategory" xml:space="preserve">
+    <value>Associate</value>
+  </data>
+  <data name="Dynamics365AssociateOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 connection to associated records in.</value>
+  </data>
+  <data name="Dynamics365AssociateOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365AssociateOperationDataSourceCategory" xml:space="preserve">
+    <value>Associate</value>
+  </data>
+  <data name="Dynamics365AssociateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source containing records to be associated.</value>
+  </data>
+  <data name="Dynamics365AssociateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365AssociateOperationDescription" xml:space="preserve">
+    <value>Associate Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365AssociateOperationDisplayName" xml:space="preserve">
+    <value>Associate Dynamics Records</value>
+  </data>
+  <data name="Dynamics365AssociateOperationEntityCategory" xml:space="preserve">
+    <value>Associate</value>
+  </data>
+  <data name="Dynamics365AssociateOperationEntityDescription" xml:space="preserve">
+    <value>The entity containing records to associate.</value>
+  </data>
+  <data name="Dynamics365AssociateOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365AssociateOperationFriendlyName" xml:space="preserve">
+    <value>Associate {0} with {1} using the {2} relationship</value>
+  </data>
+  <data name="Dynamics365AssociateOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365AssociateOperationFriendlyNameRelatedEntity" xml:space="preserve">
+    <value>&lt;Related Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365AssociateOperationFriendlyNameRelationship" xml:space="preserve">
+    <value>&lt;Relationship&gt;</value>
+  </data>
+  <data name="Dynamics365AssociateOperationRequestDescription" xml:space="preserve">
+    <value>Associating {0} {1} with {2} {3}</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetCategory" xml:space="preserve">
+    <value>Associate</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetDescription" xml:space="preserve">
+    <value>The GUID of the record that is being associated.</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetSourceCategory" xml:space="preserve">
+    <value>Associate</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetSourceDescription" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Dynamics365AssociateOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365Connection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamics365Connection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365ConnectionAuthenticationTypeCategory" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="Dynamics365ConnectionAuthenticationTypeDescription" xml:space="preserve">
+    <value>The authentication type.</value>
+  </data>
+  <data name="Dynamics365ConnectionAuthenticationTypeDisplayName" xml:space="preserve">
+    <value>Authentication Type</value>
+  </data>
+  <data name="Dynamics365ConnectionDescription" xml:space="preserve">
+    <value>Provides connectivity to Dynamics 365 Online or on-premise</value>
+  </data>
+  <data name="Dynamics365ConnectionDisplayName" xml:space="preserve">
+    <value>Dynamics 365</value>
+  </data>
+  <data name="Dynamics365ConnectionDomainCategory" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="Dynamics365ConnectionDomainDescription" xml:space="preserve">
+    <value>The login domain (optional).</value>
+  </data>
+  <data name="Dynamics365ConnectionDomainDisplayName" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="Dynamics365ConnectionHomeRealmUrlCategory" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365ConnectionHomeRealmUrlDescription" xml:space="preserve">
+    <value>The Internet Facing Deployment home realm Url. eg. https://server-1.server.com/adfs/services/trust/mex/.</value>
+  </data>
+  <data name="Dynamics365ConnectionHomeRealmUrlDisplayName" xml:space="preserve">
+    <value>Home Realm URL</value>
+  </data>
+  <data name="Dynamics365ConnectionPasswordCategory" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="Dynamics365ConnectionPasswordDescription" xml:space="preserve">
+    <value>The login password. The password is stored in an encrypted format.</value>
+  </data>
+  <data name="Dynamics365ConnectionPasswordDisplayName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Dynamics365ConnectionProxyNotReady" xml:space="preserve">
+    <value>A Dynamics organisation service proxy could not be created: {0}</value>
+  </data>
+  <data name="Dynamics365ConnectionServerUrlCategory" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365ConnectionServerUrlDescription" xml:space="preserve">
+    <value>The Dynamics 365 server URL. eg. https://mysite.crm6.dynamics.com/</value>
+  </data>
+  <data name="Dynamics365ConnectionServerUrlDisplayName" xml:space="preserve">
+    <value>Server URL</value>
+  </data>
+  <data name="Dynamics365ConnectionTimeoutCategory" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365ConnectionTimeoutDescription" xml:space="preserve">
+    <value>The connection command timeout.</value>
+  </data>
+  <data name="Dynamics365ConnectionTimeoutDisplayName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Dynamics365ConnectionUserNameCategory" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="Dynamics365ConnectionUserNameDescription" xml:space="preserve">
+    <value>The login user name.</value>
+  </data>
+  <data name="Dynamics365ConnectionUserNameDisplayName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Dynamics365ConnectionValidatePassword" xml:space="preserve">
+    <value>Please enter the connection Password</value>
+  </data>
+  <data name="Dynamics365ConnectionValidateServerUrl" xml:space="preserve">
+    <value>Please enter the connection Organisation Service URL</value>
+  </data>
+  <data name="Dynamics365ConnectionValidateTimeout" xml:space="preserve">
+    <value>The connection Timeout must be greater than zero</value>
+  </data>
+  <data name="Dynamics365ConnectionValidateUserName" xml:space="preserve">
+    <value>Please enter the connection User Name</value>
+  </data>
+  <data name="Dynamics365CreateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365createoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365CreateOperationConnectionCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to create records in.</value>
+  </data>
+  <data name="Dynamics365CreateOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365CreateOperationDataSourceCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365CreateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365CreateOperationDescription" xml:space="preserve">
+    <value>Create Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365CreateOperationDisplayName" xml:space="preserve">
+    <value>Create Dynamics Records</value>
+  </data>
+  <data name="Dynamics365CreateOperationEntityCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationEntityDescription" xml:space="preserve">
+    <value>The entity to create records in.</value>
+  </data>
+  <data name="Dynamics365CreateOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365CreateOperationFriendlyName" xml:space="preserve">
+    <value>Create {0} from {1}</value>
+  </data>
+  <data name="Dynamics365CreateOperationFriendlyNameConnection" xml:space="preserve">
+    <value>&lt;Connection&gt;</value>
+  </data>
+  <data name="Dynamics365CreateOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="Dynamics365CreateOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365CreateOperationRequestDescription" xml:space="preserve">
+    <value>Creating {0} '{1}'</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetDescription" xml:space="preserve">
+    <value>The identifier of the record to create.</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetSourceCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365CreateOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365CreateOperationValuesCategory" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dynamics365CreateOperationValuesDescription" xml:space="preserve">
+    <value>The record values to create.</value>
+  </data>
+  <data name="Dynamics365CreateOperationValuesDisplayName" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Dynamics365DataSourceValueDestinationFieldDescription" xml:space="preserve">
+    <value>The field to store the data source value in.</value>
+  </data>
+  <data name="Dynamics365DataSourceValueDestinationFieldDisplayName" xml:space="preserve">
+    <value>Destination Field</value>
+  </data>
+  <data name="Dynamics365DeactivateProcessesOperationDescription" xml:space="preserve">
+    <value>Deactivates one or more Dynamics 365 processes</value>
+  </data>
+  <data name="Dynamics365DeactivateProcessesOperationDisplayName" xml:space="preserve">
+    <value>Deactivate Dynamics Processes</value>
+  </data>
+  <data name="Dynamics365DeleteOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365deleteoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365DeleteOperationConnectionCategory" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Dynamics365DeleteOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to delete records from.</value>
+  </data>
+  <data name="Dynamics365DeleteOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365DeleteOperationDataSourceCategory" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Dynamics365DeleteOperationDataSourceDescription" xml:space="preserve">
+    <value>The records to read records from.</value>
+  </data>
+  <data name="Dynamics365DeleteOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365DeleteOperationDescription" xml:space="preserve">
+    <value>Delete Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365DeleteOperationDisplayName" xml:space="preserve">
+    <value>Delete Dynamics Records</value>
+  </data>
+  <data name="Dynamics365DeleteOperationEntityCategory" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Dynamics365DeleteOperationEntityDescription" xml:space="preserve">
+    <value>The entity to delete records from.</value>
+  </data>
+  <data name="Dynamics365DeleteOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365DeleteOperationFriendlyName" xml:space="preserve">
+    <value>Delete {0} in {1} for records in {2}</value>
+  </data>
+  <data name="Dynamics365DeleteOperationFriendlyNameConnection" xml:space="preserve">
+    <value>&lt;Connection&gt;</value>
+  </data>
+  <data name="Dynamics365DeleteOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="Dynamics365DeleteOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365DeleteOperationRequestDescription" xml:space="preserve">
+    <value>Deleting {0} {1}</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetCategory" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetDescription" xml:space="preserve">
+    <value>The identifier of the record to create.</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetSourceCategory" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a Lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365DeleteOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365DisassociateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365disassociateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationConnectionCategory" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 connection to disassociated records in.</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationDataSourceCategory" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source containing records to be disassociated.</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationDescription" xml:space="preserve">
+    <value>Disassociate Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationDisplayName" xml:space="preserve">
+    <value>Disassociate Dynamics Records</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationEntityCategory" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationEntityDescription" xml:space="preserve">
+    <value>The entity containing records to disassociate.</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationFriendlyName" xml:space="preserve">
+    <value>Disassociate {0} from {1} using the {2} relationship</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationFriendlyNameRelatedEntity" xml:space="preserve">
+    <value>&lt;Related Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationFriendlyNameRelationship" xml:space="preserve">
+    <value>&lt;Relationship&gt;</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationRequestDescription" xml:space="preserve">
+    <value>Disassociating {0} {1} from {2} {3}</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetCategory" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetDescription" xml:space="preserve">
+    <value>The GUID of the record that is being disassociated.</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetSourceCategory" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a Lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365DisassociateOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365EntityDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365entitydatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365EntityDataSourceExtract" xml:space="preserve">
+    <value>Extracting records from {0}</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamics365ExportSolutionOperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationConnectionCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to export a solution from.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationDescription" xml:space="preserve">
+    <value>Export a Dynamics 365 solution to a file.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationDisplayName" xml:space="preserve">
+    <value>Export Dynamics Solution</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationExecute" xml:space="preserve">
+    <value>Exporting {0} to {1}</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationExecuteSuccessful" xml:space="preserve">
+    <value>Successfully exported {0} to {1}</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationFriendlyName" xml:space="preserve">
+    <value>Export {0} from {1}</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationFriendlyNameConnection" xml:space="preserve">
+    <value>&lt;Connection&gt;</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationFriendlyNameSolution" xml:space="preserve">
+    <value>&lt;Solution&gt;</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationIsManagedCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationIsManagedDescription" xml:space="preserve">
+    <value>If True, exports the solution as a managed solution, otherwise exports the solution as an unmanaged solution.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationIsManagedDisplayName" xml:space="preserve">
+    <value>Is Managed</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationNamingConventionCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationNamingConventionDescription" xml:space="preserve">
+    <value>The solution file naming convention.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationNamingConventionDisplayName" xml:space="preserve">
+    <value>Naming Convention</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOpenFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dynamics365exportsolutionoperationopenfolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOpenFolderNotFound" xml:space="preserve">
+    <value>The folder {0} could not be found</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOpenFolderText" xml:space="preserve">
+    <value>Open Folder</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOpenFolderTooltip" xml:space="preserve">
+    <value>Open folder in Windows Explorer</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputDirectoryCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputDirectoryDescription" xml:space="preserve">
+    <value>The output file directory.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputDirectoryDisplayName" xml:space="preserve">
+    <value>Output Directory</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputPathCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputPathDescription" xml:space="preserve">
+    <value>The output file path.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationOutputPathDisplayName" xml:space="preserve">
+    <value>Output Path</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationSolutionCategory" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationSolutionDescription" xml:space="preserve">
+    <value>The Dynamics 365 solution to export.</value>
+  </data>
+  <data name="Dynamics365ExportSolutionOperationSolutionDisplayName" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="Dynamics365FetchXmlDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365fetchxmldatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365FetchXmlDataSourceBaseExtract" xml:space="preserve">
+    <value>Extracting records from {0}</value>
+  </data>
+  <data name="Dynamics365FieldOperationDuplicateDetectionCategory" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Dynamics365FieldOperationDuplicateDetectionDescription" xml:space="preserve">
+    <value>If True, will apply duplicate detection rules. If False, will ignore duplicate detection rules.</value>
+  </data>
+  <data name="Dynamics365FieldOperationDuplicateDetectionDisplayName" xml:space="preserve">
+    <value>Duplicate Detection</value>
+  </data>
+  <data name="Dynamics365FieldOperationGenerateMappingsReadingDataSourceFields" xml:space="preserve">
+    <value>Reading Data Source fields</value>
+  </data>
+  <data name="Dynamics365FieldOperationGenerateMappingsReadingEntityFields" xml:space="preserve">
+    <value>Reading Entity fields</value>
+  </data>
+  <data name="Dynamics365FieldOperationGenerateMappingsSuccessful" xml:space="preserve">
+    <value>{0} field mapping(s) generated successfully</value>
+  </data>
+  <data name="Dynamics365FieldOperationGenerateMappingsText" xml:space="preserve">
+    <value>Generate Field Mappings</value>
+  </data>
+  <data name="Dynamics365FieldOperationGenerateMappingsToolTip" xml:space="preserve">
+    <value>Automatically generates mappings between Data Source and Entity fields</value>
+  </data>
+  <data name="Dynamics365FieldOperationValidateValues" xml:space="preserve">
+    <value>Field Values are missing</value>
+  </data>
+  <data name="Dynamics365FieldOperationValidateValuesDuplicate" xml:space="preserve">
+    <value>Multiple values have been provided for {0}. Please ensure only one value is provided for each destination field.</value>
+  </data>
+  <data name="Dynamics365FieldOperationValuesCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Dynamics365FieldOperationValuesDescription" xml:space="preserve">
+    <value>The record values to update.</value>
+  </data>
+  <data name="Dynamics365FieldOperationValuesDisplayName" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Dynamics365ImportSolutionOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamics365ImportSolutionOperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365LookupValueDestinationFieldDescription" xml:space="preserve">
+    <value>The field to set with the looked-up value.</value>
+  </data>
+  <data name="Dynamics365LookupValueDestinationFieldDisplayName" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Dynamics365OperationConnectionCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Dynamics365OperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to apply the operation to.</value>
+  </data>
+  <data name="Dynamics365OperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365OperationConnectionValidateConnection" xml:space="preserve">
+    <value>Please select a Connection</value>
+  </data>
+  <data name="Dynamics365PublishAllOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365publishalloperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationConnectionCategory" xml:space="preserve">
+    <value>Publish All</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to publish all customisations in.</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationDescription" xml:space="preserve">
+    <value>Publish all customisations</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationDisplayName" xml:space="preserve">
+    <value>Publish Dynamics Customisations</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationExecute" xml:space="preserve">
+    <value>Publishing all customisations in {0}</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationExecuteSuccessful" xml:space="preserve">
+    <value>Successfully published all customisations in {0}</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationFriendlyName" xml:space="preserve">
+    <value>Publish all customisations in {0}</value>
+  </data>
+  <data name="Dynamics365PublishAllOperationFriendlyNameConnection" xml:space="preserve">
+    <value>&lt;Connection&gt;</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamics365PublishEntityOperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationConnectionCategory" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to publish entity customisations in.</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationDescription" xml:space="preserve">
+    <value>Publish Dynamics 365 entity customisations</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationDisplayName" xml:space="preserve">
+    <value>Publish Dynamics Entity</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationEntityCategory" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationEntityDescription" xml:space="preserve">
+    <value>The entity to publish.</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationFriendlyName" xml:space="preserve">
+    <value>Publish {0} customisations</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt;</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationPublishing" xml:space="preserve">
+    <value>Publishing {0} customisations</value>
+  </data>
+  <data name="Dynamics365PublishEntityOperationPublishingSuccess" xml:space="preserve">
+    <value>Successfully published {0} customisations</value>
+  </data>
+  <data name="Dynamics365RecordOperationBatchSizeCategory" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Dynamics365RecordOperationBatchSizeDescription" xml:space="preserve">
+    <value>The number of records that will be processed per request to Dynamics 365. Individual records are processed more slowly and reliably than records processed in a batch.</value>
+  </data>
+  <data name="Dynamics365RecordOperationBatchSizeDisplayName" xml:space="preserve">
+    <value>Batch Size</value>
+  </data>
+  <data name="Dynamics365RecordOperationContinuteOnErrorCategory" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Dynamics365RecordOperationContinuteOnErrorDescription" xml:space="preserve">
+    <value>Determines whether subsequent operations are processed if an error occurs.</value>
+  </data>
+  <data name="Dynamics365RecordOperationContinuteOnErrorDisplayName" xml:space="preserve">
+    <value>Continue On Error</value>
+  </data>
+  <data name="Dynamics365RecordOperationDataSourceCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Dynamics365RecordOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365RecordOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365RecordOperationEntityCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Dynamics365RecordOperationEntityDescription" xml:space="preserve">
+    <value>The Dynamics 365 entity to apply the operation to.</value>
+  </data>
+  <data name="Dynamics365RecordOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365RecordOperationExecute" xml:space="preserve">
+    <value>Executing {0}</value>
+  </data>
+  <data name="Dynamics365RecordOperationExecuteBatchErrors" xml:space="preserve">
+    <value>{0} error(s) occured when executing {1} requests including: {2}</value>
+  </data>
+  <data name="Dynamics365RecordOperationExecuteBatchSuccess" xml:space="preserve">
+    <value>Successfully executed {0} requests</value>
+  </data>
+  <data name="Dynamics365RecordOperationExecuteSuccess" xml:space="preserve">
+    <value>Successfully executed {0}</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetCategory" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetDescription" xml:space="preserve">
+    <value>The GUID of the record targeted by the operation.</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetSourceCategory" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the Target ID is sourced from a data source (DataSourceValue), a lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365RecordOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365RecordOperationThreadCountCategory" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Dynamics365RecordOperationThreadCountDescription" xml:space="preserve">
+    <value>The number of threads to use when writing to Dynamics 365. The order of writing data to Dynamics 365 is only guaranteed for single-threaded operations. A Microsoft support call is required to increase the maximum number of concurrent threads to greater than two for Dynamics 365 Online.</value>
+  </data>
+  <data name="Dynamics365RecordOperationThreadCountDisplayName" xml:space="preserve">
+    <value>Thread Count</value>
+  </data>
+  <data name="Dynamics365RecordOperationValidateBatchSize" xml:space="preserve">
+    <value>Please set the Batch Size to a number between {0} and {1}</value>
+  </data>
+  <data name="Dynamics365RecordOperationValidateDataSource" xml:space="preserve">
+    <value>Please select a Data Source</value>
+  </data>
+  <data name="Dynamics365RecordOperationValidateEntity" xml:space="preserve">
+    <value>Please select an Entity</value>
+  </data>
+  <data name="Dynamics365RecordOperationValidateTargetRecord" xml:space="preserve">
+    <value>Please select a Target Record</value>
+  </data>
+  <data name="Dynamics365RecordOperationValidateThreadCount" xml:space="preserve">
+    <value>Please set the Thread Count to a number between {0} and {1}</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedEntityCategory" xml:space="preserve">
+    <value>Related Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedEntityDescription" xml:space="preserve">
+    <value>The associated entity.</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedSourceCategory" xml:space="preserve">
+    <value>Related Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedSourceDescription" xml:space="preserve">
+    <value>The GUID of the record in the associated entity.</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedTargetCategory" xml:space="preserve">
+    <value>Related Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedTargetDescription" xml:space="preserve">
+    <value>The GUID of the record in the associated entity.</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationAssociatedTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationRelationshipCategory" xml:space="preserve">
+    <value>Related Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationRelationshipDescription" xml:space="preserve">
+    <value>The relationship that associates the primary and associated entities.</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationRelationshipDisplayName" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationValidateAssociatedEntity" xml:space="preserve">
+    <value>Please select an associated Entity</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationValidateAssociatedRecord" xml:space="preserve">
+    <value>Please select an associated record</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationValidateAssociatedSource" xml:space="preserve">
+    <value>Please select an associated source</value>
+  </data>
+  <data name="Dynamics365RelationshipOperationValidateRelationship" xml:space="preserve">
+    <value>Please select a Relationship</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dynamics365RunWorkflowOperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationConnectionCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to run workflows in.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationDataSourceCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationDescription" xml:space="preserve">
+    <value>Run an on-demand workflow on a Dynamics 365 record</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationDisplayName" xml:space="preserve">
+    <value>Run Dynamics Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationEntityCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationEntityDescription" xml:space="preserve">
+    <value>The entity to run the workflow against.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetDescription" xml:space="preserve">
+    <value>The identifier of the record to run the workflow against.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetSourceCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationValidateWorkflow" xml:space="preserve">
+    <value>Please select a Workflow to run</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationWorkflowCategory" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationWorkflowDescription" xml:space="preserve">
+    <value>The activated, on-demand workflow to run.</value>
+  </data>
+  <data name="Dynamics365RunWorkflowOperationWorkflowDisplayName" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Dynamics365SetStateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365setstateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365SetStateOperationConnectionCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to set the state of records in.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365SetStateOperationDataSourceCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365SetStateOperationDescription" xml:space="preserve">
+    <value>Activate, deactivate or set the state of Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365SetStateOperationDisplayName" xml:space="preserve">
+    <value>Set Dynamics Record State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationEntityCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationEntityDescription" xml:space="preserve">
+    <value>The entity to set the state of records in.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365SetStateOperationFriendlyName" xml:space="preserve">
+    <value>Set the state of {0} to {1} and {2}</value>
+  </data>
+  <data name="Dynamics365SetStateOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365SetStateOperationFriendlyNameState" xml:space="preserve">
+    <value>&lt;State&gt;</value>
+  </data>
+  <data name="Dynamics365SetStateOperationFriendlyNameStatus" xml:space="preserve">
+    <value>&lt;Status&gt;</value>
+  </data>
+  <data name="Dynamics365SetStateOperationRemarksCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationRemarksDescription" xml:space="preserve">
+    <value>The remark description to be included on the case close activity record.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationRemarksDisplayName" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Dynamics365SetStateOperationRequestDescription" xml:space="preserve">
+    <value>Setting the state of {0} {1} to {2} and {3}</value>
+  </data>
+  <data name="Dynamics365SetStateOperationResolutionCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationResolutionDescription" xml:space="preserve">
+    <value>The resolution to be included on the case close activity record.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationResolutionDisplayName" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStateCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStateDescription" xml:space="preserve">
+    <value>The state to set the record to.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStateDisplayName" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStatusCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStatusDescription" xml:space="preserve">
+    <value>The status reason to set the record to.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationStatusDisplayName" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetDescription" xml:space="preserve">
+    <value>The GUID of the record to set the state of.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetSourceCategory" xml:space="preserve">
+    <value>Set State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a Lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365SetStateOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>TargetSource</value>
+  </data>
+  <data name="Dynamics365SetStateOperationValidateState" xml:space="preserve">
+    <value>Please select a State</value>
+  </data>
+  <data name="Dynamics365SetStateOperationValidateStatus" xml:space="preserve">
+    <value>Please select a Status</value>
+  </data>
+  <data name="Dynamics365UpdateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365updateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365UpdateOperationConnectionCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to update records in.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365UpdateOperationDataSourceCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365UpdateOperationDescription" xml:space="preserve">
+    <value>Update Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365UpdateOperationDisplayName" xml:space="preserve">
+    <value>Update Dynamics Records</value>
+  </data>
+  <data name="Dynamics365UpdateOperationEntityCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationEntityDescription" xml:space="preserve">
+    <value>The entity to update records in.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365UpdateOperationFriendlyName" xml:space="preserve">
+    <value>Update {0} from {1}</value>
+  </data>
+  <data name="Dynamics365UpdateOperationFriendlyNameConnection" xml:space="preserve">
+    <value>&lt;Connection&gt;</value>
+  </data>
+  <data name="Dynamics365UpdateOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="Dynamics365UpdateOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365UpdateOperationRequestDescription" xml:space="preserve">
+    <value>Updating {0} {1} with '{2}'</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetDescription" xml:space="preserve">
+    <value>The identifier of the record to update.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetDisplayName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetSourceCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetSourceDescription" xml:space="preserve">
+    <value>Determines whether the identifier of the target record is sourced from a data source (DataSourceValue), a Lookup to another data source (LookupValue), a user-provided value (UserProvidedValue) or none (None). None should only be used for Create operations.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationTargetSourceDisplayName" xml:space="preserve">
+    <value>Target Source</value>
+  </data>
+  <data name="Dynamics365UpdateOperationValuesCategory" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Dynamics365UpdateOperationValuesDescription" xml:space="preserve">
+    <value>The record values to update.</value>
+  </data>
+  <data name="Dynamics365UpdateOperationValuesDisplayName" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Dynamics365UpsertOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365upsertoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365UpsertOperationConnectionCategory" xml:space="preserve">
+    <value>Upsert</value>
+  </data>
+  <data name="Dynamics365UpsertOperationConnectionDescription" xml:space="preserve">
+    <value>The Dynamics 365 organisation to upsert records in.</value>
+  </data>
+  <data name="Dynamics365UpsertOperationConnectionDisplayName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="Dynamics365UpsertOperationDataSourceCategory" xml:space="preserve">
+    <value>Upsert</value>
+  </data>
+  <data name="Dynamics365UpsertOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="Dynamics365UpsertOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="Dynamics365UpsertOperationDescription" xml:space="preserve">
+    <value>Upsert Dynamics 365 records</value>
+  </data>
+  <data name="Dynamics365UpsertOperationDisplayName" xml:space="preserve">
+    <value>Upsert Dynamics Records</value>
+  </data>
+  <data name="Dynamics365UpsertOperationEntityCategory" xml:space="preserve">
+    <value>Upsert</value>
+  </data>
+  <data name="Dynamics365UpsertOperationEntityDescription" xml:space="preserve">
+    <value>The entity to upsert records in.</value>
+  </data>
+  <data name="Dynamics365UpsertOperationEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365UpsertOperationFriendlyName" xml:space="preserve">
+    <value>Upsert {0} with records from {1}</value>
+  </data>
+  <data name="Dynamics365UpsertOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="Dynamics365UpsertOperationFriendlyNameEntity" xml:space="preserve">
+    <value>&lt;Entity&gt; records</value>
+  </data>
+  <data name="Dynamics365UpsertOperationKeyValuesCategory" xml:space="preserve">
+    <value>Upsert</value>
+  </data>
+  <data name="Dynamics365UpsertOperationKeyValuesDescription" xml:space="preserve">
+    <value>The key values that are used to identify the target record.</value>
+  </data>
+  <data name="Dynamics365UpsertOperationKeyValuesDisplayName" xml:space="preserve">
+    <value>Key Values</value>
+  </data>
+  <data name="Dynamics365UpsertOperationRequestDescription" xml:space="preserve">
+    <value>Upserting {0} with '{1}'</value>
+  </data>
+  <data name="Dynamics365UpsertOperationValidateKeyValues" xml:space="preserve">
+    <value>Please add at least one Key Value</value>
+  </data>
+  <data name="Dynamics365UpsertOperationValuesCategory" xml:space="preserve">
+    <value>Upsert</value>
+  </data>
+  <data name="Dynamics365UpsertOperationValuesDescription" xml:space="preserve">
+    <value>The record values to create or update.</value>
+  </data>
+  <data name="Dynamics365UpsertOperationValuesDisplayName" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Dynamics365UserProvidedValueDestinationFieldDescription" xml:space="preserve">
+    <value>The field to set with the user-provided value.</value>
+  </data>
+  <data name="Dynamics365UserProvidedValueDestinationFieldDisplayName" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Dynamics365ViewDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Dynamics365viewdatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceDescription" xml:space="preserve">
+    <value>Retrieves records from a Dynamics 365 system or personal view</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceDisplayName" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceEntityCategory" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceEntityDescription" xml:space="preserve">
+    <value>The entity to retrieve system or personal views from.</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceEntityDisplayName" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceFriendlyNameView" xml:space="preserve">
+    <value>&lt;View&gt;</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceValidateEntity" xml:space="preserve">
+    <value>Please select an Entity</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceValidateView" xml:space="preserve">
+    <value>Please select a View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewCategory" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewDescription" xml:space="preserve">
+    <value>The view to retrieve data from.</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewDisplayName" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewTypeCategory" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewTypeDescription" xml:space="preserve">
+    <value>Indicates whether data will be retrieved from a system or personal view.</value>
+  </data>
+  <data name="Dynamics365ViewDataSourceViewTypeDisplayName" xml:space="preserve">
+    <value>View Type</value>
+  </data>
+  <data name="GenerateValueMappings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenerateValueMappings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LookupValueName" xml:space="preserve">
+    <value>Looked-Up Value</value>
+  </data>
+  <data name="UserProvidedValueName" xml:space="preserve">
+    <value>User-Provided Value</value>
+  </data>
+</root>

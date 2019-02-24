@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAEAAF2A-3964-4AC8-B75A-C75BC8AAB8F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScottLane.DataTidy.Dynamics365</RootNamespace>
+    <AssemblyName>ScottLane.DataTidy.Dynamics365</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.5\lib\net452\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=2.29.0.1078, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.29.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms, Version=2.29.0.1078, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.29.0\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.2.5\lib\net452\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.5\lib\net452\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Deployment, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Deployment.9.0.2.5\lib\net452\Microsoft.Xrm.Sdk.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.Workflow.9.0.2.5\lib\net452\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Tooling.Connector, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.2.5\lib\net452\Microsoft.Xrm.Tooling.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converters\Dynamics365AssignFieldConverter.cs" />
+    <Compile Include="Converters\Dynamics365SetStateFieldConverter.cs" />
+    <Compile Include="Converters\Dynamics365TargetEntityConverter.cs" />
+    <Compile Include="Converters\Dynamics365SolutionConverter.cs" />
+    <Compile Include="Converters\Dynamics365EntityFieldConverter.cs" />
+    <Compile Include="Converters\Dynamics365EntityConverter.cs" />
+    <Compile Include="Converters\Dynamics365ProcessConverter.cs" />
+    <Compile Include="Converters\Dynamics365WorkflowConverter.cs" />
+    <Compile Include="Converters\IDynamics365AssignDataDestinationProvider.cs" />
+    <Compile Include="Converters\IDynamics365TargetEntitiesProvider.cs" />
+    <Compile Include="Converters\IDynamics365EntityFieldsProvider.cs" />
+    <Compile Include="Converters\IDynamics365RelationshipsProvider.cs" />
+    <Compile Include="Converters\IDynamics365StatesProvider.cs" />
+    <Compile Include="Converters\IDynamics365StatusesProvider.cs" />
+    <Compile Include="Converters\IDynamics365UserOrTeamOwnedEntitiesProvider.cs" />
+    <Compile Include="Converters\IDynamics365TeamsProvider.cs" />
+    <Compile Include="Converters\IDynamics365SolutionsProvider.cs" />
+    <Compile Include="Converters\IDynamics365UsersProvider.cs" />
+    <Compile Include="Converters\IDynamics365ProcessesProvider.cs" />
+    <Compile Include="Converters\IDynamics365WorkflowProvider.cs" />
+    <Compile Include="Converters\IDynamics365SetStateDataDestinationFieldsProvider.cs" />
+    <Compile Include="Editors\Dynamics365ProcessCheckedListBoxEditor.cs" />
+    <Compile Include="Editors\Dynamics365AssignFieldValueCollectionEditor.cs" />
+    <Compile Include="Editors\Dynamics365SetStateFieldValueCollectionEditor.cs" />
+    <Compile Include="Editors\Dynamics365FieldValueCollectionEditor.cs" />
+    <Compile Include="Converters\Dynamics365ViewConverter.cs" />
+    <Compile Include="Converters\Dynamics365RelationshipConverter.cs" />
+    <Compile Include="Converters\Dynamics365UserOrTeamOwnedEntityConverter.cs" />
+    <Compile Include="Editors\Dynamics365FieldCheckedListBoxEditor.cs" />
+    <Compile Include="Converters\Dynamics365FieldConverter.cs" />
+    <Compile Include="Converters\Dynamics365StateConverter.cs" />
+    <Compile Include="Converters\Dynamics365StatusConverter.cs" />
+    <Compile Include="Converters\Dynamics365TeamConverter.cs" />
+    <Compile Include="Converters\Dynamics365UserConverter.cs" />
+    <Compile Include="Converters\Dynamics365TypeConverter.cs" />
+    <Compile Include="Converters\IDynamics365EntitiesProvider.cs" />
+    <Compile Include="Converters\IDynamics365ViewsProvider.cs" />
+    <Compile Include="DataSources\Dynamics365Connection.cs" />
+    <Compile Include="DataSources\Dynamics365DataSource.cs" />
+    <Compile Include="DataSources\Dynamics365FetchXmlDataSourceBase.cs" />
+    <Compile Include="DataSources\Dynamics365ViewDataSource.cs" />
+    <Compile Include="Model\Dynamics365Process.cs" />
+    <Compile Include="Model\Dynamics365Solution.cs" />
+    <Compile Include="Model\Dynamics365Workflow.cs" />
+    <Compile Include="Operations\Dynamics365ExportSolutionOperation.cs" />
+    <Compile Include="Operations\Dynamics365ImportSolutionOperation.cs" />
+    <Compile Include="Operations\Dynamics365RunWorkflowOperation.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Values\Dynamics365AssignDataSourceValue.cs" />
+    <Compile Include="Values\Dynamics365AssignLookupValue.cs" />
+    <Compile Include="Values\Dynamics365SetStateLookupValue.cs" />
+    <Compile Include="Values\Dynamics365SetStateDataSourceValue.cs" />
+    <Compile Include="Values\Dynamics365DataSourceValue.cs" />
+    <Compile Include="Values\Dynamics365AssignUserProvidedValue.cs" />
+    <Compile Include="Values\Dynamics365SetStateUserProvidedValue.cs" />
+    <Compile Include="Values\Dynamics365UserProvidedValue.cs" />
+    <Compile Include="Model\Dynamics365Entity.cs" />
+    <Compile Include="DataSources\Dynamics365EntityDataSource.cs" />
+    <Compile Include="DataSources\Dynamics365FetchXmlDataSource.cs" />
+    <Compile Include="Model\Dynamics365Field.cs" />
+    <Compile Include="Values\Dynamics365LookupValue.cs" />
+    <Compile Include="Model\Dynamics365Relationship.cs" />
+    <Compile Include="Model\Dynamics365State.cs" />
+    <Compile Include="Model\Dynamics365Status.cs" />
+    <Compile Include="Model\Dynamics365Team.cs" />
+    <Compile Include="Model\Dynamics365User.cs" />
+    <Compile Include="Model\Dynamics365View.cs" />
+    <Compile Include="Operations\Dynamics365AssignOperation.cs" />
+    <Compile Include="Operations\Dynamics365AssociateOperation.cs" />
+    <Compile Include="Operations\Dynamics365CreateOperation.cs" />
+    <Compile Include="Operations\Dynamics365DeleteOperation.cs" />
+    <Compile Include="Operations\Dynamics365DisassociateOperation.cs" />
+    <Compile Include="Operations\Dynamics365RecordOperation.cs" />
+    <Compile Include="Operations\Dynamics365FieldOperation.cs" />
+    <Compile Include="Operations\Dynamics365Operation.cs" />
+    <Compile Include="Operations\Dynamics365PublishAllOperation.cs" />
+    <Compile Include="Operations\Dynamics365PublishEntityOperation.cs" />
+    <Compile Include="Operations\Dynamics365RelationshipOperation.cs" />
+    <Compile Include="Operations\Dynamics365SetStateOperation.cs" />
+    <Compile Include="Operations\Dynamics365UpdateOperation.cs" />
+    <Compile Include="Operations\Dynamics365UpsertOperation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365ViewDataSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365EntityDataSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365FetchXmlDataSource.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365PublishAllOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365AssignOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365CreateOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365UpdateOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365UpsertOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365SetStateOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365DeleteOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365DisassociateOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365AssociateOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365Connection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365PublishEntityOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerateValueMappings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365RunWorkflowOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365ExportSolutionOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365ImportSolutionOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dynamics365ExportSolutionOperationOpenFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{fdc7ea8c-f7e5-4e4a-b7ec-19e0fa2fac89}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365DeactivateProcessesOperation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dynamics365ActivateProcessesOperation.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

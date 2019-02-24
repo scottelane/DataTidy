@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BatchContinuteOnErrorCategory" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="BatchContinuteOnErrorDescription" xml:space="preserve">
+    <value>If True, will execute subsequent operations if an error occurs.</value>
+  </data>
+  <data name="BatchContinuteOnErrorDisplayName" xml:space="preserve">
+    <value>Continue On Error</value>
+  </data>
+  <data name="BatchCopy" xml:space="preserve">
+    <value> (Copy)</value>
+  </data>
+  <data name="BatchExecuted" xml:space="preserve">
+    <value>Successfully executed {0}</value>
+  </data>
+  <data name="BatchExecuting" xml:space="preserve">
+    <value>Executing {0}</value>
+  </data>
+  <data name="BatchIDCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="BatchIDDescription" xml:space="preserve">
+    <value>The unique batch identifier.</value>
+  </data>
+  <data name="BatchIDDisplayName" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="BatchNameCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="BatchNameDescription" xml:space="preserve">
+    <value>The batch name.</value>
+  </data>
+  <data name="BatchNameDisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="BatchOperationCountCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="BatchOperationCountDescription" xml:space="preserve">
+    <value>The number of enabled operations in the batch.</value>
+  </data>
+  <data name="BatchOperationCountDisplayName" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="BatchValidateNoOperations" xml:space="preserve">
+    <value>There are no enabled operations in the batch</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ComparisonDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\comparisondatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComparisonDataSourceColumnNameComparison" xml:space="preserve">
+    <value>IsComparison</value>
+  </data>
+  <data name="ComparisonDataSourceColumnNameDifferences" xml:space="preserve">
+    <value>Differences</value>
+  </data>
+  <data name="ComparisonDataSourceColumnNameResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ComparisonDataSourceColumnNameSource" xml:space="preserve">
+    <value>IsSource</value>
+  </data>
+  <data name="ComparisonDataSourceComparingData" xml:space="preserve">
+    <value>Comparing data</value>
+  </data>
+  <data name="ComparisonDataSourceComparisonDataCategory" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="ComparisonDataSourceComparisonDataDescription" xml:space="preserve">
+    <value>The data source to compare against.</value>
+  </data>
+  <data name="ComparisonDataSourceComparisonDataDisplayName" xml:space="preserve">
+    <value>Comparison Data</value>
+  </data>
+  <data name="ComparisonDataSourceDescription" xml:space="preserve">
+    <value>Compares two data sources and outputs the results</value>
+  </data>
+  <data name="ComparisonDataSourceDisplayName" xml:space="preserve">
+    <value>Compare Data Sources</value>
+  </data>
+  <data name="ComparisonDataSourceFieldMappingsCategory" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="ComparisonDataSourceFieldMappingsDescription" xml:space="preserve">
+    <value>Mappings between data source Fields to compare.</value>
+  </data>
+  <data name="ComparisonDataSourceFieldMappingsDisplayName" xml:space="preserve">
+    <value>Field Mappings</value>
+  </data>
+  <data name="ComparisonDataSourceFriendlyName" xml:space="preserve">
+    <value>Compare {0} with {1}</value>
+  </data>
+  <data name="ComparisonDataSourceFriendlyNameComparisonData" xml:space="preserve">
+    <value>&lt;Comparison Data Source&gt;</value>
+  </data>
+  <data name="ComparisonDataSourceFriendlyNameSourceData" xml:space="preserve">
+    <value>&lt;Source Data&gt;</value>
+  </data>
+  <data name="ComparisonDataSourceKeyMappingsCategory" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="ComparisonDataSourceKeyMappingsDescription" xml:space="preserve">
+    <value>Mappings between data source primary keys.</value>
+  </data>
+  <data name="ComparisonDataSourceKeyMappingsDisplayName" xml:space="preserve">
+    <value>Key Mappings</value>
+  </data>
+  <data name="ComparisonDataSourceOutputCategory" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="ComparisonDataSourceOutputDescription" xml:space="preserve">
+    <value>The comparison results to output.</value>
+  </data>
+  <data name="ComparisonDataSourceOutputDisplayName" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ComparisonDataSourceSourceDataCategory" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="ComparisonDataSourceSourceDataDescription" xml:space="preserve">
+    <value>The data source to compare.</value>
+  </data>
+  <data name="ComparisonDataSourceSourceDataDisplayName" xml:space="preserve">
+    <value>Source Data</value>
+  </data>
+  <data name="ComparisonDataSourceValidateComparisonData" xml:space="preserve">
+    <value>Please select a Comparison Data Source</value>
+  </data>
+  <data name="ComparisonDataSourceValidateKeyMappings" xml:space="preserve">
+    <value>Please add at least one Key Mapping</value>
+  </data>
+  <data name="ComparisonDataSourceValidateSourceData" xml:space="preserve">
+    <value>Please select a Source Data Source</value>
+  </data>
+  <data name="ConnectionAttributeResourceNotFound" xml:space="preserve">
+    <value>The ConnectionAttribute ResourceName {0} does not exist in the Assembly. Ensure that the resource name is correct and the resource's build action is 'Embedded Resource'.</value>
+  </data>
+  <data name="ConnectionValidateParentProject" xml:space="preserve">
+    <value>The Project has not been specified</value>
+  </data>
+  <data name="DataSourceAttributeResourceNotFound" xml:space="preserve">
+    <value>The DataSourceAttribute ResourceName {0} does not exist in the Assembly. Ensure that the resource name is correct and the resource's build action is 'Embedded Resource'.</value>
+  </data>
+  <data name="DataSourceCloneSuffix" xml:space="preserve">
+    <value> (Copy)</value>
+  </data>
+  <data name="DataSourceFriendlyName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="DataSourceIDCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="DataSourceIDDescription" xml:space="preserve">
+    <value>The unique data source identifier.</value>
+  </data>
+  <data name="DataSourceIDDisplayName" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DataSourceNameCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="DataSourceNameDescription" xml:space="preserve">
+    <value>The data source name.</value>
+  </data>
+  <data name="DataSourceNameDisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DataSourceValidateParentConnection" xml:space="preserve">
+    <value>The Data Source Connection has not been specified</value>
+  </data>
+  <data name="DuplicateDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\duplicatedatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DuplicateDataSourceDataSourceCategory" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="DuplicateDataSourceDataSourceDescription" xml:space="preserve">
+    <value>The data source to find duplicates in.</value>
+  </data>
+  <data name="DuplicateDataSourceDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="DuplicateDataSourceDescription" xml:space="preserve">
+    <value>Finds duplicate records in a data source</value>
+  </data>
+  <data name="DuplicateDataSourceDisplayName" xml:space="preserve">
+    <value>Find Duplicate Records</value>
+  </data>
+  <data name="DuplicateDataSourceFriendlyName" xml:space="preserve">
+    <value>Find duplicates in {0}</value>
+  </data>
+  <data name="DuplicateDataSourceFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="DuplicateDataSourceKeyFieldsCategory" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="DuplicateDataSourceKeyFieldsDescription" xml:space="preserve">
+    <value>The fields that should be unique in the data source.</value>
+  </data>
+  <data name="DuplicateDataSourceKeyFieldsDisplayName" xml:space="preserve">
+    <value>Key Fields</value>
+  </data>
+  <data name="DuplicateDataSourceValidateDataSource" xml:space="preserve">
+    <value>Please select a Data Source</value>
+  </data>
+  <data name="DuplicateDataSourceValidateKeyFields" xml:space="preserve">
+    <value>Please select at least one Key Field</value>
+  </data>
+  <data name="FieldValueDestinationFieldCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="FieldValueDestinationFieldDescription" xml:space="preserve">
+    <value>The destination field to store the value in.</value>
+  </data>
+  <data name="FieldValueDestinationFieldDisplayName" xml:space="preserve">
+    <value>Destination Field</value>
+  </data>
+  <data name="FilterDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilterDataSource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilterDataSourceDataSourceCategory" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterDataSourceDataSourceDescription" xml:space="preserve">
+    <value>The data source to filter.</value>
+  </data>
+  <data name="FilterDataSourceDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="FilterDataSourceDescription" xml:space="preserve">
+    <value>Filters a data source</value>
+  </data>
+  <data name="FilterDataSourceDisplayName" xml:space="preserve">
+    <value>Filter a Data Source</value>
+  </data>
+  <data name="FilterDataSourceFiltersCategory" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="FilterDataSourceFiltersDescription" xml:space="preserve">
+    <value>The filters to apply to the data source.</value>
+  </data>
+  <data name="FilterDataSourceFiltersDisplayName" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="FilterDataSourceFriendlyName" xml:space="preserve">
+    <value>Filter {0} by {1}</value>
+  </data>
+  <data name="OperationAttributeResourceNotFound" xml:space="preserve">
+    <value>The OperationAttribute ResourceName {0} does not exist in the Assembly. Ensure that the resource name is correct and the resource's build action is 'Embedded Resource'.</value>
+  </data>
+  <data name="ProjectDefaultName" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="ProjectFileExtension" xml:space="preserve">
+    <value>.json</value>
+  </data>
+  <data name="UtilityConnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\utilityconnection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UtilityConnectionDescription" xml:space="preserve">
+    <value>Utility data sources</value>
+  </data>
+  <data name="UtilityConnectionDisplayName" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+</root>

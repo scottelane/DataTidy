@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="Data Tidy" Language="1033" Version="!(bind.FileVersion.fil38F525572AFB93DE66108D5B8F9D99C2)" Manufacturer="Scott Lane" UpgradeCode="ab0ac6d8-ca04-4f0e-9838-8b96d19dfbb8">
+    <Package InstallerVersion="300" Compressed="yes"/>
+    <Media Id="1" Cabinet="DataTidy.cab" EmbedCab="yes" />
+    <MajorUpgrade AllowSameVersionUpgrades="yes" DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="APPLICATIONROOTDIRECTORY" Name="Data Tidy" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Data Tidy"/>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="3eafab9b-d591-4c86-8fab-d41d2138aa5b">
+        <Shortcut Id="ApplicationStartMenuShortcut" Name="Data Tidy" Description="Data Tidy is a tool for Dynamics 365 Customer Engagement that allows records to be easily created, deleted, updated, counted, compared and migrated between environments." Target="[#fil38F525572AFB93DE66108D5B8F9D99C2]" WorkingDirectory="APPLICATIONROOTDIRECTORY" />
+        <RemoveFolder Id="CleanUpShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Scott Lane\Data Tidy" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentGroupRef Id="Components" />
+      <ComponentRef Id="ApplicationShortcut" />
+    </Feature>
+
+    <UI>
+      <UIRef Id="WixUI_InstallDir" />
+      <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+    </UI>
+
+    <Icon Id="Icon.exe" SourceFile="..\Client\Resources\DataTidy16.ico" />
+    <Property Id="WIXUI_INSTALLDIR" Value="APPLICATIONROOTDIRECTORY" />
+    <Property Id="ARPPRODUCTICON" Value="Icon.exe" />
+
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Run Data Tidy" />
+    <Property Id="WixShellExecTarget" Value="[#fil38F525572AFB93DE66108D5B8F9D99C2]" />
+    <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Execute="immediate" Return="check" Impersonate="yes" />
+
+  </Product>
+</Wix>

@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CsvDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\csvdatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CsvDataSourceDelimiterCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvDataSourceDelimiterDescription" xml:space="preserve">
+    <value>The delimiter used to separate fields in the file.</value>
+  </data>
+  <data name="CsvDataSourceDelimiterDisplayName" xml:space="preserve">
+    <value>Delimiter</value>
+  </data>
+  <data name="CsvDataSourceDescription" xml:space="preserve">
+    <value>Reads records from a comma-separated value file</value>
+  </data>
+  <data name="CsvDataSourceDisplayName" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvDataSourceExtract" xml:space="preserve">
+    <value>Extracting data from {0}</value>
+  </data>
+  <data name="CsvDataSourceFriendlyName" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvDataSourceMissingValuesCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvDataSourceMissingValuesDescription" xml:space="preserve">
+    <value>Determines how missing values in the input file are interpreted.</value>
+  </data>
+  <data name="CsvDataSourceMissingValuesDisplayName" xml:space="preserve">
+    <value>Missing Values</value>
+  </data>
+  <data name="CsvDataSourcePathCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvDataSourcePathDescription" xml:space="preserve">
+    <value>The comma-separated value file path.</value>
+  </data>
+  <data name="CsvDataSourcePathDisplayName" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="CsvDataSourceValidateDelimiter" xml:space="preserve">
+    <value>Please specify a Delimiter</value>
+  </data>
+  <data name="CsvFileCreateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\csvfilecreateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CsvFileCreateOperationCreating" xml:space="preserve">
+    <value>Creating {0}</value>
+  </data>
+  <data name="CsvFileCreateOperationDataSourceCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvFileCreateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="CsvFileCreateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="CsvFileCreateOperationDelimiterCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvFileCreateOperationDelimiterDescription" xml:space="preserve">
+    <value>The delimiter used to separate fields in the file.</value>
+  </data>
+  <data name="CsvFileCreateOperationDelimiterDisplayName" xml:space="preserve">
+    <value>Delimiter</value>
+  </data>
+  <data name="CsvFileCreateOperationDescription" xml:space="preserve">
+    <value>Creates a Comma-Separated Value File</value>
+  </data>
+  <data name="CsvFileCreateOperationDisplayName" xml:space="preserve">
+    <value>Create CSV File</value>
+  </data>
+  <data name="CsvFileCreateOperationExcelLeadingZeroesCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvFileCreateOperationExcelLeadingZeroesDescription" xml:space="preserve">
+    <value>If True, will output numeric fields in a format that will preserve leading zeroes when opened in Microsoft Excel.</value>
+  </data>
+  <data name="CsvFileCreateOperationExcelLeadingZeroesDisplayName" xml:space="preserve">
+    <value>Excel Leading Zeroes</value>
+  </data>
+  <data name="CsvFileCreateOperationExecute" xml:space="preserve">
+    <value>Executing {0}</value>
+  </data>
+  <data name="CsvFileCreateOperationExecuteCreating" xml:space="preserve">
+    <value>Creating {0}</value>
+  </data>
+  <data name="CsvFileCreateOperationExecuteSuccessful" xml:space="preserve">
+    <value>Successfully created {0}</value>
+  </data>
+  <data name="CsvFileCreateOperationFriendlyName" xml:space="preserve">
+    <value>Create records in {0} from {1}</value>
+  </data>
+  <data name="CsvFileCreateOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="CsvFileCreateOperationFriendlyNamePath" xml:space="preserve">
+    <value>&lt;Path&gt;</value>
+  </data>
+  <data name="CsvFileCreateOperationOutputPathCategory" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="CsvFileCreateOperationOutputPathDescription" xml:space="preserve">
+    <value>The output file path.</value>
+  </data>
+  <data name="CsvFileCreateOperationOutputPathDisplayName" xml:space="preserve">
+    <value>Output Path</value>
+  </data>
+  <data name="CsvFileCreateOperationValidateDelimiter" xml:space="preserve">
+    <value>Please specify a Delimiter</value>
+  </data>
+  <data name="ExcelDataSource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\exceldatasource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExcelDataSourceDescription" xml:space="preserve">
+    <value>Provides data from a Microsoft Excel workbook</value>
+  </data>
+  <data name="ExcelDataSourceDisplayName" xml:space="preserve">
+    <value>Microsoft Excel File</value>
+  </data>
+  <data name="ExcelDataSourceExtract" xml:space="preserve">
+    <value>Extracting data from {0}</value>
+  </data>
+  <data name="ExcelDataSourceFirstRowHeadersCategory" xml:space="preserve">
+    <value>Microsoft Excel File</value>
+  </data>
+  <data name="ExcelDataSourceFirstRowHeadersDescription" xml:space="preserve">
+    <value>If True, will treat the first row as headers.</value>
+  </data>
+  <data name="ExcelDataSourceFirstRowHeadersDisplayName" xml:space="preserve">
+    <value>First Row Headers</value>
+  </data>
+  <data name="ExcelDataSourceFriendlyName" xml:space="preserve">
+    <value>Microsoft Excel File</value>
+  </data>
+  <data name="ExcelDataSourcePathCategory" xml:space="preserve">
+    <value>Microsoft Excel File</value>
+  </data>
+  <data name="ExcelDataSourcePathDescription" xml:space="preserve">
+    <value>The Microsoft Excel file path.</value>
+  </data>
+  <data name="ExcelDataSourcePathDisplayName" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="ExcelDataSourceSheetNameCategory" xml:space="preserve">
+    <value>Microsoft Excel File</value>
+  </data>
+  <data name="ExcelDataSourceSheetNameDescription" xml:space="preserve">
+    <value>The worksheet to read records from.</value>
+  </data>
+  <data name="ExcelDataSourceSheetNameDisplayName" xml:space="preserve">
+    <value>Sheet Name</value>
+  </data>
+  <data name="ExcelDataSourceValidateFileExtension" xml:space="preserve">
+    <value>The specified file is not a Microsoft Excel file.</value>
+  </data>
+  <data name="ExcelDataSourceValidateSheetName" xml:space="preserve">
+    <value>Please enter the Sheet Name</value>
+  </data>
+  <data name="FileDataSourcePathCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="FileDataSourcePathDescription" xml:space="preserve">
+    <value>The file path.</value>
+  </data>
+  <data name="FileDataSourcePathDisplayName" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="FileDataSourceValidatePathMissing" xml:space="preserve">
+    <value>Please specify the file Path.</value>
+  </data>
+  <data name="FileOperationDataSourceCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="FileOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="FileOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="FileOperationOpenFileNotFound" xml:space="preserve">
+    <value>The file {0} could not be found</value>
+  </data>
+  <data name="FileOperationOpenFileText" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="FileOperationOpenFileTooltip" xml:space="preserve">
+    <value>Open the output file</value>
+  </data>
+  <data name="FileOperationOpenFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileOperationOpenFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileOperationOpenFolderNotFound" xml:space="preserve">
+    <value>The folder {0} could not be found</value>
+  </data>
+  <data name="FileOperationOpenFolderText" xml:space="preserve">
+    <value>Open Folder</value>
+  </data>
+  <data name="FileOperationOpenFolderTooltip" xml:space="preserve">
+    <value>Open folder in Windows Explorer</value>
+  </data>
+  <data name="FileOperationOutputPathCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="FileOperationOutputPathDescription" xml:space="preserve">
+    <value>The output file path.</value>
+  </data>
+  <data name="FileOperationOutputPathDisplayName" xml:space="preserve">
+    <value>Output Path</value>
+  </data>
+  <data name="FileOperationValidateDataSource" xml:space="preserve">
+    <value>Please select a Data Source</value>
+  </data>
+  <data name="FileOperationValidateOutputPath" xml:space="preserve">
+    <value>Please specify the Output Path</value>
+  </data>
+  <data name="FileSystemConnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileSystemConnection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSystemConnectionDescription" xml:space="preserve">
+    <value>Provides connectivity files on the file system</value>
+  </data>
+  <data name="FileSystemConnectionDisplayName" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="FileSystemConnectionFriendlyName" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="FtpConnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FtpConnection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FtpConnectionDescription" xml:space="preserve">
+    <value>Provides connectivity to a FTP or SFTP server</value>
+  </data>
+  <data name="FtpConnectionDisplayName" xml:space="preserve">
+    <value>File Transfer Protocol</value>
+  </data>
+  <data name="JsonFileCreateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\jsonfilecreateoperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JsonFileCreateOperationDataSourceCategory" xml:space="preserve">
+    <value>JSON File</value>
+  </data>
+  <data name="JsonFileCreateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="JsonFileCreateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="JsonFileCreateOperationDescription" xml:space="preserve">
+    <value>Creates a JSON file</value>
+  </data>
+  <data name="JsonFileCreateOperationDisplayName" xml:space="preserve">
+    <value>Create JSON File</value>
+  </data>
+  <data name="JsonFileCreateOperationExecute" xml:space="preserve">
+    <value>Executing {0}</value>
+  </data>
+  <data name="JsonFileCreateOperationExecuteCreating" xml:space="preserve">
+    <value>Creating {0}</value>
+  </data>
+  <data name="JsonFileCreateOperationExecuteSuccessful" xml:space="preserve">
+    <value>Successfully created {0}</value>
+  </data>
+  <data name="JsonFileCreateOperationFriendlyName" xml:space="preserve">
+    <value>Create JSON records in {0} from {1}</value>
+  </data>
+  <data name="JsonFileCreateOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="JsonFileCreateOperationFriendlyNamePath" xml:space="preserve">
+    <value>&lt;Path&gt;</value>
+  </data>
+  <data name="JsonFileCreateOperationOutputPathCategory" xml:space="preserve">
+    <value>JSON File</value>
+  </data>
+  <data name="JsonFileCreateOperationOutputPathDescription" xml:space="preserve">
+    <value>The output file path.</value>
+  </data>
+  <data name="JsonFileCreateOperationOutputPathDisplayName" xml:space="preserve">
+    <value>Output Path</value>
+  </data>
+  <data name="OpenFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XmlFileCreateOperation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlFileCreateOperation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XmlFileCreateOperationDataSourceCategory" xml:space="preserve">
+    <value>XMLFile</value>
+  </data>
+  <data name="XmlFileCreateOperationDataSourceDescription" xml:space="preserve">
+    <value>The data source to read records from.</value>
+  </data>
+  <data name="XmlFileCreateOperationDataSourceDisplayName" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="XmlFileCreateOperationDescription" xml:space="preserve">
+    <value>Creates an XML file</value>
+  </data>
+  <data name="XmlFileCreateOperationDisplayName" xml:space="preserve">
+    <value>Create XML File</value>
+  </data>
+  <data name="XmlFileCreateOperationExecute" xml:space="preserve">
+    <value>Executing {0}</value>
+  </data>
+  <data name="XmlFileCreateOperationExecuteCreating" xml:space="preserve">
+    <value>Creating {0}</value>
+  </data>
+  <data name="XmlFileCreateOperationExecuteSuccessful" xml:space="preserve">
+    <value>Successfully created {0}</value>
+  </data>
+  <data name="XmlFileCreateOperationFriendlyName" xml:space="preserve">
+    <value>Create records in {0} from {1}</value>
+  </data>
+  <data name="XmlFileCreateOperationFriendlyNameDataSource" xml:space="preserve">
+    <value>&lt;Data Source&gt;</value>
+  </data>
+  <data name="XmlFileCreateOperationFriendlyNamePath" xml:space="preserve">
+    <value>&lt;Path&gt;</value>
+  </data>
+  <data name="XmlFileCreateOperationOutputPathCategory" xml:space="preserve">
+    <value>XMLFile</value>
+  </data>
+  <data name="XmlFileCreateOperationOutputPathDescription" xml:space="preserve">
+    <value>The output file path.</value>
+  </data>
+  <data name="XmlFileCreateOperationOutputPathDisplayName" xml:space="preserve">
+    <value>Output Path</value>
+  </data>
+</root>
