@@ -144,6 +144,33 @@ namespace ScottLane.DataTidy.Core.Properties {
         /// <summary>
         ///   Looks up a localized string similar to General.
         /// </summary>
+        public static string BatchItemCountCategory {
+            get {
+                return ResourceManager.GetString("BatchItemCountCategory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The number of enabled operations in the batch..
+        /// </summary>
+        public static string BatchItemCountDescription {
+            get {
+                return ResourceManager.GetString("BatchItemCountDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operations.
+        /// </summary>
+        public static string BatchItemCountDisplayName {
+            get {
+                return ResourceManager.GetString("BatchItemCountDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General.
+        /// </summary>
         public static string BatchNameCategory {
             get {
                 return ResourceManager.GetString("BatchNameCategory", resourceCulture);
@@ -165,33 +192,6 @@ namespace ScottLane.DataTidy.Core.Properties {
         public static string BatchNameDisplayName {
             get {
                 return ResourceManager.GetString("BatchNameDisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General.
-        /// </summary>
-        public static string BatchOperationCountCategory {
-            get {
-                return ResourceManager.GetString("BatchOperationCountCategory", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The number of enabled operations in the batch..
-        /// </summary>
-        public static string BatchOperationCountDescription {
-            get {
-                return ResourceManager.GetString("BatchOperationCountDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Operations.
-        /// </summary>
-        public static string BatchOperationCountDisplayName {
-            get {
-                return ResourceManager.GetString("BatchOperationCountDisplayName", resourceCulture);
             }
         }
         

@@ -144,6 +144,15 @@
   <data name="BatchIDDisplayName" xml:space="preserve">
     <value>ID</value>
   </data>
+  <data name="BatchItemCountCategory" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="BatchItemCountDescription" xml:space="preserve">
+    <value>The number of enabled operations in the batch.</value>
+  </data>
+  <data name="BatchItemCountDisplayName" xml:space="preserve">
+    <value>Operations</value>
+  </data>
   <data name="BatchNameCategory" xml:space="preserve">
     <value>General</value>
   </data>
@@ -152,15 +161,6 @@
   </data>
   <data name="BatchNameDisplayName" xml:space="preserve">
     <value>Name</value>
-  </data>
-  <data name="BatchOperationCountCategory" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="BatchOperationCountDescription" xml:space="preserve">
-    <value>The number of enabled operations in the batch.</value>
-  </data>
-  <data name="BatchOperationCountDisplayName" xml:space="preserve">
-    <value>Operations</value>
   </data>
   <data name="BatchValidateNoOperations" xml:space="preserve">
     <value>There are no enabled operations in the batch</value>
